@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="atSimpleSelectOptions">
+		<field name="ID" type="I" size="10">
+			<KEY />
+			<AUTOINCREMENT/>
+		</field>
+		<field name="akID" type="I" size="10">
+			<NOTNULL />
+			<UNSIGNED />
+		</field>
+		<field name="value" type="C" size="255">
+			<NOTNULL />
+		</field>
+		<field name="displayOrder" type="I" size="10">
+			<UNSIGNED />
+			<NOTNULL />
+		</field>
+	</table>
+	<table name="atSimpleSelectOptionSelected">
+		<field name="avID" type="I" value="10">
+			<KEY />
+		</field>
+		<field name="optionID" type="I" value="10">
+			<UNSIGNED />
+			<NOTNULL />
+		</field>
+	</table>
+</schema>
+

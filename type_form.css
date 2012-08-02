@@ -1,0 +1,22 @@
+#attributeValuesWrap {
+	margin-top: 4px;
+	width: 400px;
+}
+#attributeValuesWrap .akSelectValueWrap {
+	border: 1px solid #EEEEEE;
+	margin-bottom: 2px;
+	padding: 2px;
+}
+#attributeValuesWrap .akSelectValueWrap .rightCol {
+	float: right;
+	text-align: right;
+}
+#attributeValuesWrap .akSelectValueWrap .leftCol {
+	float: left;
+}
+#attributeValuesWrap .akSelectValueWrap .akSelectValueTextField {
+	display: none;
+}
+#addAttributeValuesWrap {
+	margin-top: 8px;
+}
